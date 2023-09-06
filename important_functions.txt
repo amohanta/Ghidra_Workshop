@@ -1,0 +1,19 @@
+00404b21 file_extension_check
+FUN_00404c38 - file_iteration
+	file_extension_check
+
+FUN_00406118 - File_Encryption function...called from FileEncryptionWrapper(00406344)
+	CreateFile
+	//get contents
+	SetFilePointer ...very imp for Ransomware
+	ReadFile
+	//Encrypt contents
+         CryptEncrypt() API
+        //Write back encrypted Contents
+	WriteFile()
+
+FUN_004065b2 backup_Deletion
+
+
+	
+	
